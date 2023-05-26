@@ -20,7 +20,7 @@ public class ChengeSkybox : MonoBehaviour
     void Update()
     {
         skyChengeTime += Time.deltaTime;
-        if (skyChengeTime >= 1f)
+        if (skyChengeTime >= 10f)
         {
             RenderSettings.skybox = newSkyboxMaterial[Random.Range(0, index)];
             skyChengeTime = 0;

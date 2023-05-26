@@ -52,6 +52,5 @@ public class ImageMove : MonoBehaviour
             transform.rotation = targetRotation;
             lastMousePosition = Input.mousePosition;
         }
-        Debug.Log(RotationTimer);
     }
 }
