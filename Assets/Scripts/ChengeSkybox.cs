@@ -5,15 +5,25 @@ using UnityEngine;
 public class ChengeSkybox : MonoBehaviour
 {
     [SerializeField]
-    Material newSkyboxMaterial;
+    public Material[] newSkyboxMaterial;
+    [SerializeField]
+    float skyChengeTime = 0;
+    [SerializeField]
+    int index = 0;
+
+    void Start()
+    {
+        index = newSkyboxMaterial.Length;
+    }
+    
 
     void Update()
     {
-
-        
-        if (Input.GetMouseButtonDown(1))
+        skyChengeTime += Time.deltaTime;
+        if (skyChengeTime >= 1f)
         {
-            RenderSettings.skybox = newSkyboxMaterial;
+            RenderSettings.skybox = newSkyboxMaterial[Random.Range(0, index)];
+            skyChengeTime = 0;
         }
     }
 }
