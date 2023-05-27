@@ -3,7 +3,7 @@ Allows the camera to rotate 360 degrees and look over the skybox material.
 
 # DEMO
 
-!!! [2023-05-24_214946](https://github.com/nakazi0635/unity_art_gallery/assets/91645661/ace0a905-e99c-4e0d-a148-9126905165bf)
+![スクリーンショット 2023-05-27 093940](https://github.com/nakazi0635/unity-Skybox-360/assets/91645661/76b3b4c6-123b-46b7-a7d8-5b4db164a9e1)
 
 
 # Features
