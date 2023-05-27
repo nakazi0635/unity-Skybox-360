@@ -633,7 +633,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.401
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe2b81df56039f489b9059364cdebf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 1500
+  rotationSpeed: 400
   currentRotation: {x: 0, y: 0, z: 0, w: 0}
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   RotationTimer: 0
