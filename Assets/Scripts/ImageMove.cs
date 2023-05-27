@@ -5,7 +5,7 @@ using UnityEngine;
 public class ImageMove : MonoBehaviour
 {
     [SerializeField]
-    float rotationSpeed = 3f;
+    float rotationSpeed = 10f;
     [HideInInspector]
     Vector3 lastMousePosition;
     [SerializeField]
@@ -27,7 +27,7 @@ public class ImageMove : MonoBehaviour
         RotationTimer += Time.deltaTime;
         if (RotationTimer >= 2f){
             currentRotation = transform.rotation;
-            targetRotation = Quaternion.Euler(currentRotation.eulerAngles.x, currentRotation.eulerAngles.y + 0.02f, 0f);
+            targetRotation = Quaternion.Euler(currentRotation.eulerAngles.x, currentRotation.eulerAngles.y + 0.01f, 0f);
             transform.rotation = targetRotation;
         }
 
