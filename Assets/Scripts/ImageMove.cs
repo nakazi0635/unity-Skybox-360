@@ -56,7 +56,7 @@ public class ImageMove : MonoBehaviour
             currentRotation = transform.rotation;// 現在位置をcurrentRotationに代入。三次元の向きを格納
             targetRotation = Quaternion.Euler(currentRotation.eulerAngles.x + rotationX, currentRotation.eulerAngles.y + rotationY, 0f);// 更新される角度をtargetRotationに格納
 
-            transform.rotation = targetRotation;// 現在位置を更新する
+            transform.rotation = targetRotation;// 現在位置を更新
 
             lastMousePosition = Input.mousePosition;// 現在のマウスの位置をlastMousePositionに代入
         }

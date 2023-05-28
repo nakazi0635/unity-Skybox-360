@@ -586,8 +586,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: a73f7288628807546952114bcea8a650, type: 2}
   - {fileID: 2100000, guid: 53b889b57937a4c47a60be5fce13016c, type: 2}
   - {fileID: 2100000, guid: b79549a377e79e74290e1e7a6fd8b889, type: 2}
-  skyChengeTime: 0
-  index: 0
 --- !u!4 &787472730
 Transform:
   m_ObjectHideFlags: 0
@@ -615,9 +613,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc6dbc42aac52743beaeb811da4b209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 0.5
-  targetDarkness: 1
-  targetBrightness: 0
   blackoutPanel: {fileID: 620470866}
 --- !u!82 &787472732
 AudioSource:
@@ -813,9 +808,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 400
-  currentRotation: {x: 0, y: 0, z: 0, w: 0}
-  targetRotation: {x: 0, y: 0, z: 0, w: 0}
-  RotationTimer: 0
+  rotationTimer: 2
+  autoMovementSpeed: 0.05
 --- !u!1 &1449352181
 GameObject:
   m_ObjectHideFlags: 0
